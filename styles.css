@@ -1,6 +1,32 @@
-p {
+#content {
+    margin: 0 auto;
+    width: 70%;
+}
+.content-wrapper{
+
+}
+body {
+    font-family: 'Montserrat', helvetica, aerial, sans-serif;
+}
+h1, h3, h4, h5 {
     font-family: 'Merriweather', serif;
 }
-h1, h4, h5 {
-    font-family: 'Montserrat', sans-serif;
+h4, h5 {
+    font-style: italic;
+}
+.related {
+    font-style: italic;
+}
+.topperimg {
+    width: 100%;
+}
+.imagewrapper {
+    margin: 40px;
+}
+.imagewrapper img{
+    width: 100%
+}
+.imagewrapper p.caption {
+    margin-top: 0px;
+    color: grey;
 }
