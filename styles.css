@@ -1,18 +1,12 @@
 #content {
     margin: 0 auto;
-    width: 70%;
-}
-.content-wrapper{
-
+    width: 60%;
 }
 body {
     font-family: 'Montserrat', helvetica, aerial, sans-serif;
 }
 h1, h3, h4, h5 {
     font-family: 'Merriweather', serif;
-}
-h4, h5 {
-    font-style: italic;
 }
 .related {
     font-style: italic;
@@ -29,4 +23,25 @@ h4, h5 {
 .imagewrapper p.caption {
     margin-top: 0px;
     color: grey;
+}
+#map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+blockquote {
+    font-weight: bold;
+    border: 3px solid #d69702;
+    padding: 8px;
+    margin-left: 60px;
+}
+
+//*below styles apply to div around headline, byline and date*//
+
+#topinfo h5 {
+    color: grey;
+}
+#topinfo h4 {
+    font-weight: bold;
 }
